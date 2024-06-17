@@ -1,4 +1,4 @@
-const key=import.meta.env.VITE_APIKEY;
+const key="db95773a7fb212ba790d71f6adac0e7e";
 const baseUrl="https://api.themoviedb.org/3";
 const endpoints={
     popular:`${baseUrl}/movie/popular?api_key=${key}`,
